@@ -4,18 +4,27 @@ title: Komitety
 index: 3
 ---
 
-Kodowanie, modulacja i transmisja
-Cyfrowe przetwarzanie sygnałów
-Systemy i sieci teleinformatyczne
-Projektowanie i optymalizacja sieci
-Systemy i sieci optyczne
-Protokoły komunikacyjne
-Modelowanie sieci
-Pomiary w telekomunikacji
-Internet rzeczy
-Systemy i sieci 5G
-Sterowanie i zarządzanie sieciami
-Usługi i aplikacje
-Jakość i niezawodność
-Bezpieczeństwo
-Aspekty prawne i ekonomiczne w telekomunikacji
+##### Przewodniczący KSTiT 2019
+
+Tadeusz Więckowski – Politechnika Wrocławska
+
+
+
+##### Komitet Sterujący
+
+{% for person in site.data.steering %}
+- {{person.name}}, <em>{{person.affiliation}}</em>
+{% endfor %}
+
+
+##### Komitet Programowy
+
+{% for person in site.data.program %}
+- {{person.name}}, <em>{{person.affiliation}}</em>
+{% endfor %}
+
+
+##### Komitet Organizacyjny
+
+{% for person in site.data.organizers %}
+{{person.name}},{% endfor %}

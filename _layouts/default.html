@@ -31,7 +31,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
       {% include header.html %}
-      <!-- columns should be the immediate child of a .row -->
+  </div>
+
+  <div class="container">
+
       <div class="row">
         <div class="three columns">
           {% include menu.html %}
@@ -48,16 +51,23 @@
     e-mail: kstit@pwr.edu.pl
     www.kstit.pwr.edu.pl
 
+
         </div>
         <div class="six columns content">
           {{ content }}
         </div>
         <div class="three columns">
           {% include patrons.html %}
+          <div class="line"></div>
 
         </div>
       </div>
-
+      <br>
+      <div class="line"></div>
+      <div class="row kstit">
+      Copyright © 2018 by Politechnika Wrocławska
+      <br>
+      </div>
   </div>
 
 <!-- End Document

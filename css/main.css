@@ -4,7 +4,15 @@ img.patron {
 }
 
 .header {
-  padding: 3em 0;
+  padding: 3em 0 1.5em 0;
+}
+
+
+.line {
+  width:100%;
+  background-color: #2533B8;
+  height:.25em;
+  margin-bottom: 1.5em;
 }
 
 .content img {
