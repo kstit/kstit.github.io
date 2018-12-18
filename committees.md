@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tematyka konferencji
-index: 2
+title: Komitety
+index: 3
 ---
 
 Kodowanie, modulacja i transmisja

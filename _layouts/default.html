@@ -29,22 +29,11 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-      <div class="row header">
-        <img class="six columns" src="images/logo.png">
-        <div class="six columns kstit">
-            <h2><strong>XXXV Krajowe Sympozjum Telekomunikacji i Teleinformatyki</strong></h2>
-        </div>
-      </div>
+      {% include header.html %}
       <!-- columns should be the immediate child of a .row -->
       <div class="row">
         <div class="three columns">
-          <h5>Menu główne</h5>
-          <ul>
-            {% for page in site.pages %}
-              <a href="{{page.url}}"><li>{{ page.title }}</li></a>
-            {% endfor %}
-          </ul>
-
+          {% include menu.html %}
           {% include dates.html %}
 
           <h5>Sekretariat</h5>

@@ -1,6 +1,7 @@
 ---
 title: O konferencji
 layout: default
+index: 1
 ---
 
 Szanowni Państwo,

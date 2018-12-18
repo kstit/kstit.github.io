@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tematyka konferencji
-index: 2
+title: Zapisy na listę mailingową
+index: 5
 ---
 
 Kodowanie, modulacja i transmisja

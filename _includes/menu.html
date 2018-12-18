@@ -1,0 +1,7 @@
+<h5>Menu główne</h5>
+<ul>
+  {% assign menu = (site.pages | sort: 'index') %}
+  {% for page in menu %}
+    <a href="{{page.url}}"><li>{{ page.title }}</li></a>
+  {% endfor %}
+</ul>

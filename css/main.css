@@ -14,3 +14,13 @@ img.patron {
 .kstit {
   color: #031196;
 }
+
+a {
+  color: #031196;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2533B8;
+  text-decoration: underline;
+}
