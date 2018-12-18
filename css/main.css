@@ -33,6 +33,11 @@ a:hover, .underlined {
   text-decoration: underline;
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #2533B8;
   font-family: "Staatliches";
