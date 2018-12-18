@@ -24,3 +24,8 @@ a:hover {
   color: #2533B8;
   text-decoration: underline;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2533B8;
+  font-family: "Staatliches";
+}
