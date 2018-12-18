@@ -1,0 +1,11 @@
+<h5>Terminy</h5>
+<table class="u-full-width">
+  <tbody>
+    {% for date in site.data.dates %}
+    <tr>
+      <th>{{ date.date }}</th>
+      <td>{{ date.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
