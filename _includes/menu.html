@@ -2,6 +2,8 @@
 <ul>
   {% assign menu = (site.pages | sort: 'index') %}
   {% for page in menu %}
+  {% if page.index > 0 %}
     <a href="{{page.url}}"><li>{{ page.title }}</li></a>
+  {% endif %}
   {% endfor %}
 </ul>
