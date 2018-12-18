@@ -6,7 +6,7 @@
     {% if p.url != page.url %}
       <a href="{{p.url}}"><li>{{ p.title }}</li></a>
     {% else %}
-      <a href="{{p.url}}"><li><strong>{{ p.title }}</strong></li></a>
+      <a href="{{p.url}}" class="underlined""><li>{{ p.title }}</li></a>
     {% endif %}
   {% endif %}
   {% endfor %}
