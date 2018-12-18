@@ -4,7 +4,7 @@ layout: default
 index: 1
 ---
 
-Szanowni Państwo,
+<span style="font-size:1.5em">Szanowni Państwo,</span>
 
 Zapraszamy na XXXV, jubileuszowe, Krajowe Sympozjum Telekomunikacji i Teleinformatyki (KSTiT), które w 2019 roku odbędzie się we Wrocławiu. Po raz pierwszy KSTiT zostanie zorganizowane wspólnie z Krajową Konferencją Radiokomunikacji, Radiofonii i Telewizji (KKRRiT) – pod wspólnym hasłem „Internet Wszechrzeczy – dla wszystkich i wszędzie”. Będzie to wspaniała okazja spotkania i integracji specjalistów z obu, coraz bardziej przenikających się, środowisk. Zaproszenie kierujemy do osób świata nauki, w tym młodych pracowników i doktorantów, a także przedstawicieli przemysłu. Liczymy na obecność przedstawicieli dostawców systemów i usług telekomunikacyjnych, integratorów, operatorów i organów regulacyjnych, a także przedstawicieli administracji państwowej i samorządowej, którzy w swej działalności zajmują się zagadnieniami związanymi z telekomunikacją i teleinformatyką. Sądzimy, że zorganizowanie obu konferencji w jednym tygodniu stworzy możliwość prezentacji osiągnięć i wymiany doświadczeń środowisk naukowych, badawczych, przemysłowych i usługowych zajmujących się szeroko pojętą telekomunikacją.
 
