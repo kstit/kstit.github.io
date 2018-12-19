@@ -7,7 +7,6 @@ img.patron {
   padding: 3em 0 1.5em 0;
 }
 
-
 .line {
   width:100%;
   background-color: #2533B8;
@@ -23,13 +22,15 @@ img.patron {
   color: #031196;
 }
 
+.red {
+  color: #960311;
+}
+
 a {
-  color: #031196;
   text-decoration: none;
 }
 
 a:hover, .underlined {
-  color: #2533B8;
   text-decoration: underline;
 }
 
@@ -41,4 +42,21 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #2533B8;
   font-family: "Staatliches";
+}
+
+.newsletter {
+  border-radius: 1em;
+  color:white;
+  background-color: #2533B8;
+  text-align: center;
+}
+
+.menu li {
+  list-style-type: none;
+  padding:3px 5px;
+}
+
+.footer {
+  text-align: left;
+  padding-bottom: 1.5em;
 }
