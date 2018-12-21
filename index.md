@@ -1,24 +1,49 @@
 ---
-title: O konferencji
+title: Strona główna
 layout: default
+column: 1
 index: 1
 ---
 
 <span style="font-size:1.5em">Szanowni Państwo,</span>
 
-*Zapraszamy na XXXV, jubileuszowe, Krajowe Sympozjum Telekomunikacji i Teleinformatyki (KSTiT), które w 2019 roku odbędzie się we Wrocławiu. Po raz pierwszy KSTiT zostanie zorganizowane wspólnie z Krajową Konferencją Radiokomunikacji, Radiofonii i Telewizji (KKRRiT) – pod wspólnym hasłem „Internet Wszechrzeczy – dla wszystkich i wszędzie”. Będzie to wspaniała okazja spotkania i integracji specjalistów z obu, coraz bardziej przenikających się, środowisk. Zaproszenie kierujemy do osób świata nauki, w tym młodych pracowników i doktorantów, a także przedstawicieli przemysłu. Liczymy na obecność przedstawicieli dostawców systemów i usług telekomunikacyjnych, integratorów, operatorów i organów regulacyjnych, a także przedstawicieli administracji państwowej i samorządowej, którzy w swej działalności zajmują się zagadnieniami związanymi z telekomunikacją i teleinformatyką. Sądzimy, że zorganizowanie obu konferencji w jednym tygodniu stworzy możliwość prezentacji osiągnięć i wymiany doświadczeń środowisk naukowych, badawczych, przemysłowych i usługowych zajmujących się szeroko pojętą telekomunikacją.*
+*Serdecznie zapraszamy do wzięcia udziału w Krajowym Sympozjum Telekomunikacji i Teleinformatyki (KSTiT), które w 2019 roku zostanie zorganizowane w tym samym okresie co Krajowa Konferencja Radiokomunikacji, Radiofonii i Telewizji (KKRRiT).*
 
-<div style="text-align: right">Komitet Organizacyjny</div>
-<br>
+##### Terminy konferencji
 
-![](images/pwr.png)
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th class="calign">Wtorek<br>25.06.2019r.</th>
+      <th class="calign">Środa<br>26.06.2019r.</th>
+      <th class="calign">Czwartek<br>27.06.2019r.</th>
+      <th class="calign">Piątek<br>28.06.2019r.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td class="bco calign"><br>I dzień</td>
+      <td class="bco calign"><strong>KSTiT</strong><br>II dzień</td>
+      <td class="bco calign"><br>III dzień</td>
+    </tr>
+    <tr>
+      <td class="rco calign"><br>I dzień</td>
+      <td class="rco calign"><strong>KKRRiT</strong><br>II dzień</td>
+      <td class="rco calign"><br>III dzień</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-Krajowe Sympozjum Telekomunikacji i Teleinformatyki (KSTiT) odbędzie się 26 czerwca 2019 r. we Wrocławiu. Spotkanie organizuje Katedra Telekomunikacji i Teleinformatyki Wydziału Elektroniki Politechniki Wrocławskiej
+Obie konferencje zorganizowane będą na Politechnice Wrocławskiej, w ramach tygodnia poświęconego szeroko rozumianej telekomunikacji i teleinformatyce, pod hasłem „**Internet wszechrzeczy – dla wszystkich i wszędzie**”.
 
-Sympozjum organizowane jest już od ponad trzydziestu lat, a jego głównym celem jest wymiana wiedzy, doświadczeń i poglądów między przedstawicielami środowiska akademickiego, jednostek naukowo-badawczych oraz przemysłu. W spotkaniu udział wezmą także operatorzy i regulatorzy rynku.
+Krajowe Sympozjum Telekomunikacji i Teleinformatyki odbędzie się już po raz trzydziesty piąty. Jak co roku, będzie ono okazją do spotkań i wymiany doświadczeń przedstawicieli środowiska akademickiego i przemysłu, a w szczególności producentów i dostawców sprzętu i usług, operatorów sieci oraz integratorów rozwiązań telekomunikacyjnych.
 
-KSTiT będzie również okazją do prezentacji najnowszych osiągnięć naukowych, kierunków rozwoju oraz zagadnień normalizacyjnych z dziedziny telekomunikacji i teleinformatyki.
+Sympozjum poświęcone jest nie tylko prezentacji nowych rozwiązań technicznych, ale również omówieniu zagadnień prawnych widzianych zarówno z punktu widzenia dostawców i odbiorców usług, jak również regulatora rynku telekomunikacyjnego.
 
-[Informacje o konferencji w formie ulotki do wydrukowania.](files/ulotka_KSTiT_2019_v1_DRUK.pdf)
+Konferencja umożliwia prezentację wyników swoich prac badawczych przez pracowników naukowych, doktorantów, studentów oraz pracowników licznych ﬁrm telekomunikacyjnych i teleinformatycznych.
 
-Kontakt: [beata.andrasz@pwr.edu.pl](mailto:beata.andrasz@pwr.edu.pl)
+Organizatorzy zapraszają do nadsyłania referatów ze wszystkich zainteresowanych środowisk, szczególnie z ośrodków naukowych, badawczo-rozwojowych, wdrożeniowych, przemysłowych i operatorskich. Materiały z Konferencji będą publikowane w *Przeglądzie Telekomunikacyjnym i Wiadomościach Telekomunikacyjnych (PTiWT)*, a wybrane najlepsze referaty po ich rozszerzeniu i opracowaniu w j. angielskim zostaną opublikowane w *International Journal of Electronics and Telecommunications (IJET)*.
+
+Korzystając z tej strony, w późniejszym terminie będzie można zarejestrować się na konferencję wybierając jedną z dwóch możliwości, tj. rejestrację na **KSTiT** lub rejestrację na **KSTiT** i **KKRRiT**.

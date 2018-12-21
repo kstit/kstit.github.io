@@ -1,21 +1,21 @@
-
-
-<h5>Menu główne</h5>
-<ul class="menu">
-  {% assign menu = (site.pages | sort: 'index') %}
-  {% for p in menu %}
-  {% if p.index > 0 %}
-    {% if p.index ==5 %}
-      <a href="{{p.url}}"><li class="newsletter">{{ p.title }}</li></a>
-    {% elsif p.url != page.url %}
-      <a href="{{p.url}}"><li>{{ p.title }}</li></a>
-    {% else %}
-      <a href="{{p.url}}" class="underlined""><li>{{ p.title }}</li></a>
-    {% endif %}
-  {% endif %}
-  {% endfor %}
-</ul>
-
-<ul class="menu">
-  <a href="/newsletter"><li class="newsletter">Zapisy na listę mailingową</li></a>
-</ul>
+<nav>
+  <div class="container">
+    <div class="row">
+      {% for column in site.columns %}
+      <div class="three columns">
+        <ul>
+        {% assign menu = (site.pages | sort: 'index' | where:"column",column) %}
+        {% for p in menu %}
+        {% if p.index > 0 %}
+        <a href="{{p.url}}" {% if p.url==page.url %}class="underlined" {% endif %}>
+          <li>{{ p.title }}</li>
+        </a>
+        {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class=" u-cf"></div>
+</nav>

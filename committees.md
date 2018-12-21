@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Komitety
-index: 3
+index: 2
+column: 1
 ---
 
 ##### Przewodniczący KSTiT 2019

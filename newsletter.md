@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Zapisy na listę mailingową
-index: 0
 ---
 
 ##### Zapisy na listę mailingową (Newsletter) KSTiT 2019

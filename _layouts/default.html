@@ -1,46 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+{% include head.html %}
 
-  <!-- Basic Page Needs
+<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+<div class="container">
+  {% include header.html %}
+</div>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% include menu.html %}
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/main.css">
+<div class="container">
 
-</head>
-<body>
+  <div class="row">
+    <div class="three columns">
+      <ul class="menu">
+        <a href="/newsletter"><li class="newsletter">Zapisy na listę mailingową</li></a>
+      </ul>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-      {% include header.html %}
-  </div>
+      {% include dates.html %}
 
-  <div class="container">
-
-      <div class="row">
-        <div class="three columns">
-          {% include menu.html %}
-          {% include dates.html %}
-
-          <h5>Sekretariat</h5>
+      <h5>Sekretariat</h5>
 <pre><code style="font-size:10px">Katedra Telekomunikacji
 i Teleinformatyki
 Politechnika Wrocławska
@@ -52,25 +32,26 @@ e-mail: kstit@pwr.edu.pl
 www.kstit.pwr.edu.pl
 </code></pre>
 
-        </div>
-        <div class="six columns content">
-          {{ content }}
-        </div>
-        <div class="three columns">
-          {% include patrons.html %}
-          <div class="line"></div>
-
-        </div>
-      </div>
-      <br>
+    </div>
+    <div class="six columns content">
+      {{ content }}
+    </div>
+    <div class="three columns">
+      {% include patrons.html %}
       <div class="line"></div>
-      <div class="row kstit footer">
-      © 2018 Politechnika Wrocławska
-      <br>
-      </div>
+
+    </div>
   </div>
+  <br>
+  <div class="line"></div>
+  <div class="row kstit footer">
+    © 2018 Politechnika Wrocławska
+    <br>
+  </div>
+</div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>

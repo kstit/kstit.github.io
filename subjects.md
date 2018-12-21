@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Tematyka konferencji
-index: 2
+column: 2
+index: 4
 ---
 
 ![](images/tematyka.png)

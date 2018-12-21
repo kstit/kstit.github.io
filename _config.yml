@@ -9,6 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+columns: [1,2,3]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -60,3 +60,49 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   padding-bottom: 1.5em;
 }
+
+nav {
+  background-color: #2533B8;
+  margin-bottom: 1em;
+  padding:1em 0 1em 0;
+  border-top: 5px solid #EEEEFC;
+  border-bottom: 5px solid #EEEEFC;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #EEE;
+}
+
+nav a:hover {
+  color: #FFF;
+}
+
+nav li {
+  line-height: 1em;
+}
+
+.ralign {
+  text-align: right;
+}
+
+.calign {
+  text-align: center;
+}
+
+.bco {
+  color:white;
+  background-color: #6977FC;
+}
+
+.rco {
+  color:white;
+  background-color: #FC6977;
+}
+
+#mapid { height: 300px;
+border-radius: 1em;}
