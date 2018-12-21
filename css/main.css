@@ -49,6 +49,8 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
   background-color: #2533B8;
   text-align: center;
+  list-style-type: none;
+  padding:5px 5px;
 }
 
 .menu li {
@@ -62,24 +64,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  background-color: #2533B8;
+  background-color: #EEEEFC;
   margin-bottom: 1em;
-  padding:1em 0 1em 0;
-  border-top: 5px solid #EEEEFC;
+  padding:1em 0 0em 0;
+  border-top: 5px solid #2533B8;
   border-bottom: 5px solid #EEEEFC;
+  font-size: .9em;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
-}
-
-nav a {
-  color: #EEE;
-}
-
-nav a:hover {
-  color: #FFF;
 }
 
 nav li {
